@@ -1,0 +1,20 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.0",
+  "description": "This is one solution about resizing images.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "resize"
+  ],
+  "author": "zhangbg",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "gm": "^1.23.0",
+    "imagemagick": "^0.1.3"
+  }
+}
