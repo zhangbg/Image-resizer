@@ -23,12 +23,14 @@ node main.js
 
 ## 注意
 + 无论是使用imagemagick还是gm，都要先安装相应的库（imagemagick或GraphicsMagick），另外安装时记得要选中“install legacy utilities”选项；
+
 ![image](assets/intall-convert-utility.png)
     - http://www.imagemagick.org/script/download.php
     - http://blog.csdn.net/faryang/article/details/51445230
     - https://github.com/aheckmann/gm
 
 + 当没有安装imagemagick时，执行会报如下错误
+
 ![image](assets/not-install-magick.png)
 + 参考资料
     - http://caolan.github.io/async/docs.html#queue
