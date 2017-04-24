@@ -1,5 +1,4 @@
-var
-async = require('async'),
+var async = require('async'),
     fs = require('fs'),
     gm = require('gm').subClass({imageMagick: true});
     maxworkers = require('os').cpus().length,
